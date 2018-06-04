@@ -40,9 +40,10 @@ sure that we're all on the same page.
   done the work _on theirs directly_. [Here][pr] is a great example of a pull
   request on the `Ruby` codebase.
 
-Let's go over a conceptual, hypothetical example. It's OK if this feels a bit confusing at
-first. You'll work through this countless times and eventually your brain and
-fingers will both grasp what's going on. Let's look at the following example:
+We're going to go go over a conceptual, hypothetical example. THIS IS ONLY AN 
+EXAMPLE. It's OK if this feels a bit confusing at first. You'll work through 
+this countless times and eventually your brain and fingers will both grasp 
+what's going on. Let's look at the following scenario:
 
 ### Pull Request to a Source Repository
 
