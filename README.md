@@ -47,7 +47,8 @@ what's going on. Let's look at the following scenario:
 
 ### Pull Request to a Source Repository
 
-1. Let's pretend that the learn-co-students organization has a repo called awesome-lab, and we make a "fork" from this repo at `https://github.com/learn-co-students/awesome-lab`.
+1. Let's pretend that the learn-co-students organization has a repo called awesome-lab, and 
+   we make a "fork" of the repo `https://github.com/learn-co-students/awesome-lab`.
 2. You would now have a _copy_ of that repo on your Github account ("organization") i.e.
    `https://github.com/your-user-name/awesome-lab`. Technologists would say
    you "forked" the `awesome-lab` repo from the `learn-co-students` organization
@@ -68,7 +69,7 @@ what's going on. Let's look at the following scenario:
 
 Here's a story:
 
-1. You fork the repository `https://github.com/learn-co-students/awesome-lab`
+1. You fork the [fake] repository `https://github.com/learn-co-students/awesome-lab`
    to `https://github.com/your-user-name/awesome-lab`.
 1. You make some changes to your newly forked repo.
 1. Another student forks the repository
