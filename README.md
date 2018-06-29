@@ -83,7 +83,12 @@ commits will be added automatically.
 
 ## Conclusion
 
-
+Pull requests are merely a tool that allows project owners and project editors to
+collaborate without granting too much direct access, or potentially stepping on
+each others' toes. This action can be performed even on a repo you are a collaborator
+on, but may not have write access too--but we won't get into that just yet. You'll 
+continue to learn more about collaboration and how git enables you to track and 
+edit projects to your heart's content!
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/github-pull-request-basics' title='Github Pull Request Basics'>Github Pull Request Basics</a> on Learn.co and start learning to code for free.</p>
 
