@@ -1,50 +1,34 @@
 # Github Pull Request Basics
 
-## Objectives:
+## Problem Statement
 
-1. Understand what a pull request is
-1. Identify how to create a pull request from one fork to another
+The concept of a pull request is unique to Github--so don't feel nervous about
+not knowing what it is! Pull requests power the open source community.
+Through this process, anyone can fork a repo, make changes and submit
+a pull request. Instead of the owner working on their codebase alone, _anyone_
+can contribute: tests, documentation fixes, new features, layout, graphics, etc.
+How does this feature work?
+
+## Objectives
+
+1. Explain what a pull request is
+1. Identify how to create a pull request from a fork to a repo
 2. Identify how to add commits to an existing pull request
 
-## Overview:
+## Explain What a Pull Requests Is
 
-The concept of a pull request is unique to Github. It is a request for the
-owner of a receiving repository to take your changes, that you made on your
-own copy of the repo ("your fork"), and "pull" them into the owner's repository.
-Pull requests power the open source community. Through this process,
-anyone can fork a repo, make changes and submit a pull request. Instead of
-the owner working on their codebase alone, _anyone_ can contribute: tests,
-documentation fixes, new features, awesome layout and graphics, etc...
+A pull request is a request to the owner of another org take changes you
+made to your copy of the repo and integrate it into theirs _as if_ you had
+done the work _on theirs directly_. It is a request for the owner of a repository
+to accept your changes, that you made on your own copy of the repo ("your fork"),
+and "pull" them into the owner's repository. [Here][pr] is a great example of a
+pull request on the `Ruby` codebase.
 
-There are some vocabulary words that we need to keep in mind in order to make
-sure that we're all on the same page.
+## Identify How to Create a Pull Request from a Fork to a Repo
 
-* **revision control system**: a software program that keeps tracks of updates /
-  deletions / additions / changes to a collection of content (usually a
-  directory)
-* "**repository**" (or "repo"): a directory of content (including subdirectories)
-  which is managed by `git` (or, "under revision control")
-* "**organization**" (or "org"): a parent entity which "owns" a repo. This might
-  be an organization (IBM, Microsoft, the Python foundation) or it might be an
-  owning human (`sgharms`). In the case of Learn.co labs, "orgs" are
-  `learn-co-curriculum` and `learn-co-students`
-* "**fork**:" to make a copy of the **repository** owned by one **org** and add it
-  within _another_ **org**. `sgharms` might "fork" `ruby/ruby` (that is `ruby`
-  org's `ruby` repo) to his own org.
-* "**clone**:" to copy a remote repo (on Github, typically, but this could be
-  from a remote server, from a USB drive, even from another directory on your
-  local system) to a local directory with the same name that's under git
-  revision control
-* "**pull request**:" to request that the owner of another org take changes you
-  made to your copy of the repo and integrate it into theirs _as if_ you had
-  done the work _on theirs directly_. [Here][pr] is a great example of a pull
-  request on the `Ruby` codebase.
-
-Let's go over a conceptual, hypothetical example. It's OK if this feels a bit confusing at
+Let's go over a conceptual, hypothetical example. It's okay if this feels a bit confusing at
 first. You'll work through this countless times and eventually your brain and
 fingers will both grasp what's going on. Let's look at the following example:
-
-### Pull Request to a Source Repository
 
 1. Let's pretend that the learn-co-students organization has a repo called awesome-lab, and we make a "fork" from this repo at `https://github.com/learn-co-students/awesome-lab`.
 2. You would now have a _copy_ of that repo on your Github account ("organization") i.e.
@@ -60,46 +44,35 @@ fingers will both grasp what's going on. Let's look at the following example:
    it in."
 5. Make some changes on your local machine
 6. Push your code from your local system _back_ to _your_ fork
-7. Create a pull request that requests your improved code be "pulled" into the
-   source repo.
+7. Create a `pull request` that requests your improved code be "pulled" into the
+   source repo. Observe the steps for initiating a `pull request` below:
 
-### Pull Request From One Fork To Another
-
-Here's a story:
-
-1. You fork the repository `https://github.com/learn-co-students/awesome-lab`
-   to `https://github.com/your-user-name/awesome-lab`.
-1. You make some changes to your newly forked repo.
-1. Another student forks the repository
-   `https://github.com/learn-co-students/awesome-lab` as
-   `https://github.com/their-user-name/awesome-lab`.
-1.  You make some changes and you want to send a pull request to their fork
-    `https://github.com/their-user-name/awesome-lab`. How do you do this?
-
-Amazingly, `git` doesn't care whether one repository is the "source" or is
-"another fork of the source." Amazingly, if GitHub were to be wiped off the
-earth tomorrow, local copies on hundreds of laptops 'round the world are _just
-as good as the copy that GitHub_ had! This is why `git` is called a
-"Distributed Version Control System." So, to share a pull request with another
-student follows the same process as forking some famous project (like Ruby or
-jQuery).
-
-### Step 1
-
-Click on the New Pull Request button.
+#### Step 1
 
 ![](https://curriculum-content.s3.amazonaws.com/gitpulls/2.png)
 
-### Step 2
+#### Step 2
 
 Here you can choose the base fork, which will be `their-user-name/awesome-lab`.
 Then choose the head fork, which will be `your-user-name/awesome-lab`
 
-Now click Create pull request.
+Now click Create pull request, and you're all set!
 
 ![](https://curriculum-content.s3.amazonaws.com/gitpulls/4.jpg)
 
-### Add Commits To An Existing Pull Request
+What if another student now forks the repository `https://github.com/learn-co-students/awesome-lab` 
+as `https://github.com/their-user-name/awesome-lab`, then you make some changes and you 
+want to send a pull request to their fork `https://github.com/their-user-name/awesome-lab`? 
+How do you do this?
+
+Luckily, `git` doesn't care whether one repository is the "source" or is
+"another fork of the source." If GitHub magically vanished tomorrow, local copies on 
+hundreds of laptops 'round the world are _just as good as the copy that GitHub_ had!
+This is why `git` is called a "Distributed Version Control System." So, to share a
+pull request with another student follows the same process as forking some famous
+project (like Ruby or jQuery).
+
+## Identify How to Add Commits to an Existing Pull Request
 
 Let's say you make a pull request from
 `https://github.com/your-user-name/awesome-lab` to
@@ -107,6 +80,10 @@ Let's say you make a pull request from
 typo in your code. All you have to do is fix the typo, commit it and push up
 the changes to your branch. As long as the pull request already exists, the
 commits will be added automatically.
+
+## Conclusion
+
+
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/github-pull-request-basics' title='Github Pull Request Basics'>Github Pull Request Basics</a> on Learn.co and start learning to code for free.</p>
 
