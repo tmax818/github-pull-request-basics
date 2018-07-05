@@ -2,12 +2,12 @@
 
 ## Problem Statement
 
-The concept of a pull request is unique to Github--so don't feel nervous about
-not knowing what it is! Pull requests power the open source community.
-Through this process, anyone can fork a repo, make changes and submit
-a pull request. Instead of the owner working on their codebase alone, _anyone_
-can contribute: tests, documentation fixes, new features, layout, graphics, etc.
-How does this feature work?
+The concept of a pull request is unique to GitHub--so don't feel nervous about
+not knowing what it is! Pull requests power the communities of devevelopers who
+create and contribute to "open sourced" projects. Through this process, anyone
+can fork a repo, make changes and submit a pull request. Instead of the owner
+working on their codebase alone, _anyone_ can contribute tests, documentation
+fixes, new features, layout, graphics, etc. How does this feature work?
 
 ## Objectives
 
@@ -17,7 +17,7 @@ How does this feature work?
 
 ## Explain What a Pull Requests Is
 
-A pull request is a request to the owner of another org take changes you
+A pull request is a request to the owner of another repot to take changes you
 made to your copy of the repo and integrate it into theirs _as if_ you had
 done the work _on theirs directly_. It is a request for the owner of a repository
 to accept your changes, that you made on your own copy of the repo ("your fork"),
@@ -31,7 +31,7 @@ first. You'll work through this countless times and eventually your brain and
 fingers will both grasp what's going on. Let's look at the following example:
 
 1. Let's pretend that the learn-co-students organization has a repo called awesome-lab, and we make a "fork" from this repo at `https://github.com/learn-co-students/awesome-lab`.
-2. You would now have a _copy_ of that repo on your Github account ("organization") i.e.
+2. You would now have a _copy_ of that repo on your GitHub account ("organization") i.e.
    `https://github.com/your-user-name/awesome-lab`. Technologists would say
    you "forked" the `awesome-lab` repo from the `learn-co-students` organization
    to the `your-user-name` organization.
@@ -90,6 +90,6 @@ on, but may not have write access too--but we won't get into that just yet. You'
 continue to learn more about collaboration and how git enables you to track and 
 edit projects to your heart's content!
 
-<p data-visibility='hidden'>View <a href='https://learn.co/lessons/github-pull-request-basics' title='Github Pull Request Basics'>Github Pull Request Basics</a> on Learn.co and start learning to code for free.</p>
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/github-pull-request-basics' title='Github Pull Request Basics'>GitHub Pull Request Basics</a> on Learn.co and start learning to code for free.</p>
 
 [pr]: https://github.com/ruby/ruby/pull/1051
