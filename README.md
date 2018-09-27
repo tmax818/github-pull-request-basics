@@ -39,12 +39,13 @@ of a repository to accept your changes, that you made on your own copy of the
 repo ("your fork"), and "pull" them into the owner's repository. [Here][pr] is
 a great example of a pull request on the `Ruby` codebase.
 
-> **CAREFUL** `git` has a command called `pull` which means "integrate changes
-> made in a remote place to this current branch." Oddly, in a "pull request"
-> this isn't really what's happening. You're asking someone to `git merge` your
-> branch into theirs &mdash; a completely different command. It's needlessly
-> confusing. We'll cover `merge` later, but don't get confused by `git pull`
-> and "pull request."
+> **NOTE** 
+> The term “pull requests” comes from the distributed nature of how many open
+> source projects organize themselves. Instead of pushing your changes into a
+> central repository, you are publishing your changes separately and asking the
+> maintainer to pull in your changes. The maintainer then can look over the changes
+> and do said pull. This is not the same as by `git pull`, which will integrate
+> changes made in a remote repo to the your local version of the branch.
 
 ## Identify How to Create a Pull Request from a Fork to a Repo
 
